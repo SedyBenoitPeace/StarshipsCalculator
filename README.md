@@ -5,7 +5,10 @@ A little application to calculate the number of stops on a given distance for Sw
 The application will take a mega light distance in input and will give you the number of stops required to cover that distance for the Starships from SWAPI's API (https://swapi.co/).
 
 # Requirements
-The application is developed with .NET Framework 4.6.1, that you  can find here https://www.microsoft.com/en-ca/download/details.aspx?id=49981
+<ul>
+  <li>The application is developed with .NET Framework 4.6.1, that you  can find here https://www.microsoft.com/en-ca/download/details.aspx?id=49981</li>
+  <li> ou also need to have internet connection to run the application. /li>
+  </ul>
 
 # FAQ
 # How can I run the app?
