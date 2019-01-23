@@ -27,12 +27,14 @@ namespace StarshipDistanceCalculator
             var starships = starshipService.GetAllStarships();
             foreach (var starship in starships)
             {
-                //string name = starship.Name;
-                //string consumables = starship.Consumables;
                 var resultToAdd = new ResultDTO();
                 int MGLT = 0;
                 long stops = 0;
-                if (starship.MGLT != "unknown")
+                if (starship.MGLT == "unknown")
+                {
+                    resultToAdd.Unknown = true;
+                }
+                else
                 {
                     MGLT = Convert.ToInt32(starship.MGLT);
                 }
@@ -47,7 +49,6 @@ namespace StarshipDistanceCalculator
                     int distanceUntilNextStop = movimentInOneDay * consumablesDays;
                     stops = distance / distanceUntilNextStop;
                 }
-
                 resultToAdd.StarshipName = starship.Name;
                 resultToAdd.NumberOfStops = stops;
                 result.Add(resultToAdd);

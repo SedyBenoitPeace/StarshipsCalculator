@@ -24,6 +24,11 @@ namespace StarshipDistanceCalculator
                 Console.Write("Everything is done, check it out: \r\n");
                 foreach (var item in starshipsWithDistance)
                 {
+                    if(item.Unknown)
+                    {
+                        Console.WriteLine(string.Format("Sorry the speed for {0} is unknown, basically the calculation will give you {1} stops", item.StarshipName, item.NumberOfStops));
+                        continue;
+                    }
                     Console.WriteLine("{0} {1} stops", item.StarshipName, item.NumberOfStops);
                 }
                 Console.WriteLine("Press a button to exit");
