@@ -26,6 +26,7 @@ namespace StarshipDistanceCalculator
                 {
                     Console.WriteLine("{0} {1} stops", item.StarshipName, item.NumberOfStops);
                 }
+                Console.WriteLine("Press a button to exit");
                 Console.ReadLine();
 
             }
