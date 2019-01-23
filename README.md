@@ -7,7 +7,7 @@ The application will take a mega light distance in input and will give you the n
 # Requirements
 <ul>
   <li>The application is developed with .NET Framework 4.6.1, that you  can find here https://www.microsoft.com/en-ca/download/details.aspx?id=49981</li>
-  <li> ou also need to have internet connection to run the application. /li>
+  <li> As the app relies on some API you also need to have internet connection to run the application and download the informations about the starships. </li>
   </ul>
 
 # FAQ
