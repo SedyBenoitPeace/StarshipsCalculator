@@ -73,4 +73,4 @@ In the end also the tests are a great area where there is plenty of improvements
 
 # FAQ
 # How can I run the app?
-You can install it with the setup that you can find under the "Executable" folder, or you can directly run it through the exe that you can find on the "Portable" folder.
+You can install it with the setup that you can find under the "Executable" folder, or you can directly run it through the StarshipDistanceCalculator.exe that you can find on the "Portable" folder.
