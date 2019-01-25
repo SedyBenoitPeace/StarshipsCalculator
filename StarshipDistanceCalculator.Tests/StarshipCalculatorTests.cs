@@ -74,5 +74,15 @@ namespace StarshipDistanceCalculator.Tests
             Int64 input = 1000000;
             var resultList = calculate.CalculateStops(input);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        public void ZeroElementsPerPage()
+        {
+            Calculate calculate = new Calculate();
+            ConfigurationManager.AppSettings["Starships.Api.ElementsPerPage"] = "0";
+            Int64 input = 1000000;
+            var resultList = calculate.CalculateStops(input);
+        }
     }
 }
