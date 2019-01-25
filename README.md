@@ -58,12 +58,12 @@ And that's it!
 # UnitTest
 There is also another part for the solution, and that is the one about UnitTest. Here we have the class StarshipCalculatorTests properly decorated with [TestClass] attribute, and it has 4 test methods (also them decorated with a particular attribute, in this case [TestMethod].
 The 4 methods are:
-<li>
-  <ul>SampleTest, this method will look if the Starships that we have on the coding challenge will be in the results</ul>
-  <ul>IsOutputTheSame, this method will look if the Starships that we have on the coding challenge are the only results possible</ul>
-  <ul>NoKeyInConfig, this method will test the absence of some configuration data</ul>
-  <ul>ZeroElementsPerPage, this method will test the wrong setting for the elements on a page </ul>
-  </li>
+<ul>
+  <li>SampleTest, this method will look if the Starships that we have on the coding challenge will be in the results</li>
+  <li>IsOutputTheSame, this method will look if the Starships that we have on the coding challenge are the only results possible</li>
+  <li>NoKeyInConfig, this method will test the absence of some configuration data</li>
+  <li>ZeroElementsPerPage, this method will test the wrong setting for the elements on a page </li>
+ </ul>
 
 # Improvements
 There is always room for improvement.
